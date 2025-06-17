@@ -1,6 +1,7 @@
-path: dataset
-train: images/train
-val: images/val
+path: dataset # Dataset root directory
+train: images/train # Training set
+val: images/val # Validation set
 
-names:
-  0: screw
+nc: 14 # Number of classes
+names: [black screw, nut, pin, screw long, screw long dense, screw long thin, screw medium thick, screw medium thin, screw medium thin v2, screw short dense, screw short thick,screw short thick v2, screw short thin, screw short thin v2] # Class names
+# Downloaded from https://universe.roboflow.com/serikkehva/yolo-screws-v2
